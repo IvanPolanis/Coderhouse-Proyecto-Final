@@ -1,0 +1,94 @@
+@import "index";
+@import "table";
+@import "form";
+@import "card";
+
+body{
+    background-color: #fcfcfc;
+    margin:  0;
+    min-height: 100vh;
+}
+footer{
+    bottom: 0;
+}
+header{
+    top: 0;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*About Us*/
+.bg-lightblue{
+    background: lightblue;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 50px 0 30px 0;
+}
+h4{
+    font-size: 2rem;
+}
+/*Media querys*/
+@media only screen and (min-width:320px)
+{
+    #main{
+        height: 60vh;
+    }
+    .main-page{
+        justify-content: center;
+        align-items: center;
+        .main-title{
+            justify-items: flex-start;
+            align-items: center;
+            h2{
+                font-size: 3.75rem;
+                text-align: center;
+            }
+        }
+    }
+    .contact-form{
+        width: 80vw;
+    }
+
+}
+@media (max-width:576px){
+    .img-top{
+        display: none;
+    }
+}
+@media (min-width: 577px){
+    .img-bottom{
+        display: none;
+    }
+}
+@media only screen and (min-width:680px)
+{
+    .main-page {
+        img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    }
+    .contact-form{
+        width: 60vw;
+    }
+}
+@media only screen and (min-width:1024px)
+{
+    li {
+        a{
+        transition: all 0.5s;
+        :hover{
+            transform: scale(1.1,1.1);}
+    }
+    }
+}
+@media only screen and (min-width:1280px){
+    .contact-form{
+        width: 30vw;
+    }
+}

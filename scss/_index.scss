@@ -1,0 +1,54 @@
+#main{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index:2;
+}
+.header-title{
+    width: 50%;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+}
+
+.container-main{
+    width: 100%;
+    height: 60vh;
+    
+}
+.main-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    overflow: hidden;
+    top: 1vh;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    img{
+        position: absolute;
+        object-fit: cover;
+    }
+    .main-title{
+        h2{
+        padding-top: 30vh;
+        margin: 0 auto;
+        padding-left: 0vw;
+        position: sticky;
+        font-size: 8vw;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        }
+    }
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4vh;
+}
+.paragraph{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+}
