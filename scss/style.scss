@@ -71,7 +71,12 @@ h4{
         height: 100%;
         width: 100%;
         position: absolute;
+        
     }
+        .main-title{
+        h2{
+            font-size:4.5rem}
+        }
     }
     .contact-form{
         width: 60vw;
@@ -79,6 +84,12 @@ h4{
 }
 @media only screen and (min-width:1024px)
 {
+    .main-page{
+        .main-title{
+            h2{
+                font-size:5.5rem}
+            }
+    }
     li {
         a{
         transition: all 0.5s;
