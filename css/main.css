@@ -46,34 +46,6 @@
   text-align: center;
   font-size: 2vh; }
 
-.table-grid {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: ". . ." ". table ." ". . ."; }
-
-.table-style {
-  width: 100%;
-  height: 60vh;
-  margin: 1vh auto;
-  text-align: left;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  font-family: 'Roboto',sans-serif;
-  grid-area: table; }
-  .table-style tr {
-    font-size: 2vh;
-    border-collapse: collapse; }
-
-td {
-  vertical-align: top; }
-
-th, td {
-  padding: 1vw;
-  text-align: left;
-  border-bottom: 1px solid #ddd; }
-
 .contact-form {
   width: 20vw;
   padding: 40px;
@@ -131,6 +103,23 @@ textarea {
   .card {
     margin: 0; } }
 
+.bi-patient {
+  margin: 0 1rem; }
+  .bi-patient .justify-content {
+    text-align: justify; }
+
+.patient-sc {
+  border-top: 1px solid #bbbbbb; }
+
+.bg-lg {
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  background-color: #F9F9F9; }
+
+@media only screen and (min-width: 968px) {
+  .bi-testimony {
+    margin: 0 2.5rem; } }
+
 body {
   background-color: #fcfcfc;
   margin: 0;
@@ -152,7 +141,7 @@ a {
 /*About Us*/
 .bg-lightblue {
   background: lightblue;
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
   padding: 50px 0 30px 0; }
 

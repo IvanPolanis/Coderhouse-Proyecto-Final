@@ -1,0 +1,19 @@
+.bi-patient {
+    margin: 0 1rem;
+    .justify-content{
+        text-align: justify;
+    }
+}
+.patient-sc{
+    border-top: 1px solid #bbbbbb;
+}
+.bg-lg{
+    border-top: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    background-color: #F9F9F9;
+}
+@media only screen and (min-width:968px){
+    .bi-testimony{
+        margin: 0 2.5rem;
+    }
+}

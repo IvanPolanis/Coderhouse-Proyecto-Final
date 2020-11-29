@@ -1,7 +1,7 @@
 @import "index";
-@import "table";
 @import "form";
 @import "card";
+@import "treatments";
 
 body{
     background-color: #fcfcfc;
@@ -24,7 +24,7 @@ a{
 /*About Us*/
 .bg-lightblue{
     background: lightblue;
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
     padding: 50px 0 30px 0;
 }
