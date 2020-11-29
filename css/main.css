@@ -116,8 +116,12 @@ textarea {
   border-bottom: 1px solid #bbbbbb;
   background-color: #F9F9F9; }
 
+@media only screen and (max-width: 768px) {
+  .margin-r {
+    margin: auto 0.75rem; } }
+
 @media only screen and (min-width: 968px) {
-  .bi-testimony {
+  .bi-patient {
     margin: 0 2.5rem; } }
 
 body {
