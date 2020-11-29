@@ -12,13 +12,32 @@
     border-bottom: 1px solid #bbbbbb;
     background-color: #F9F9F9;
 }
+.img-patient{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.tl{
+    object-position: 0 0;
+}
+.br{
+    object-position: 78% 100%;
+}
 @media only screen and (max-width:768px){
     .margin-r{
         margin: auto 0.75rem;
     }
 }
+@media only screen and (min-width:768px){
+    .img-patient{
+        max-height: 250px;
+    }
+}
 @media only screen and (min-width:968px){
     .bi-patient{
         margin: 0 2.5rem;
+    }
+    .img-patient{
+        max-height: 200px;
     }
 }
