@@ -107,6 +107,10 @@ textarea {
   margin: 0 1rem; }
   .bi-patient .justify-content {
     text-align: justify; }
+  .bi-patient h2 {
+    font-size: 2.5rem; }
+  .bi-patient p {
+    font-size: 1.15rem; }
 
 .patient-sc {
   border-top: 1px solid #bbbbbb; }
