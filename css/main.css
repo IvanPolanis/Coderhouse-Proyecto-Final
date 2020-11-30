@@ -145,6 +145,18 @@ textarea {
   .img-patient {
     max-height: 200px; } }
 
+.img-tch {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 3px; }
+
+.position-p2 {
+  object-position: 0% 25%; }
+
+@media only screen and (min-width: 768px) {
+  .position-p2 {
+    object-position: 0% 30%; } }
+
 body {
   background-color: #fcfcfc;
   margin: 0;
@@ -168,7 +180,7 @@ a {
   background: lightblue;
   width: 100%;
   box-sizing: border-box;
-  padding: 50px 0 30px 0; }
+  padding: 30px 0; }
 
 h4 {
   font-size: 2rem; }
@@ -221,4 +233,4 @@ h4 {
 
 @media only screen and (min-width: 1280px) {
   .contact-form {
-    width: 30vw; } }
+    width: 35vw; } }

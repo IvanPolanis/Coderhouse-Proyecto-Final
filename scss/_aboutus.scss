@@ -1,0 +1,13 @@
+.img-tch{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.position-p2{
+    object-position: 0% 25%;
+}
+@media only screen and (min-width:768px){
+    .position-p2{
+        object-position: 0% 30%;
+    }
+}
