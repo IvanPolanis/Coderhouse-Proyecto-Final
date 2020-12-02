@@ -4,6 +4,11 @@
             margin: 1rem;
             transition: 0.5s;
             cursor: pointer;
+            min-height: 600px;
+            .btn{
+                position: absolute;
+                bottom: 16px;
+            }
         }
     }
     .card:hover{

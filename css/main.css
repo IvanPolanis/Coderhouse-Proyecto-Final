@@ -39,12 +39,18 @@
 .title {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 4vh; }
+  font-size: 2rem; }
 
 .paragraph {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 2vh; }
+  font-size: 1rem; }
+
+@media only screen and (min-width: 1024px) {
+  .title {
+    font-size: 2.12rem; }
+  .paragraph {
+    font-size: 1.05rem; } }
 
 .contact-form {
   width: 20vw;
@@ -94,7 +100,11 @@ textarea {
   .row .card {
     margin: 1rem;
     transition: 0.5s;
-    cursor: pointer; }
+    cursor: pointer;
+    min-height: 600px; }
+    .row .card .btn {
+      position: absolute;
+      bottom: 16px; }
 
 .card:hover {
   transform: scale(1.05); }
